@@ -64,7 +64,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       videos
     },
-    revalidate: 30
+    revalidate: 60 * 5
   }
 }
 export default SSR

@@ -73,7 +73,7 @@ export const getStaticProps: GetStaticProps = async ctx => {
     props: {
       videos
     },
-    revalidate: 30
+    revalidate: 60 * 5
   }
 }
 
