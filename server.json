@@ -1,0 +1,172 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "OneVideo",
+      "duration": 10293,
+      "image": "banner_guigo-02.png"
+    },
+    {
+      "id": 2,
+      "title": "twoVideo",
+      "duration": 9870,
+      "image": "banner_guigo-03.png"
+    },
+    {
+      "id": 3,
+      "title": "threeVideo",
+      "duration": 400,
+      "image": "banner_guigo-04.png"
+    },
+    { "id": 4, "title": "title video", "duration": 400, "image": "1.jpg" },
+    { "id": 5, "title": "title video", "duration": 400, "image": "2.jpg" },
+    {
+      "id": 6,
+      "title": "title video",
+      "duration": 400,
+      "image": "background.jpg"
+    },
+    {
+      "id": 7,
+      "title": "title video",
+      "duration": 400,
+      "image": "banner_guigo-02.png"
+    },
+    {
+      "id": 8,
+      "title": "title video",
+      "duration": 400,
+      "image": "banner_guigo-03.png"
+    },
+    {
+      "id": 9,
+      "title": "title video",
+      "duration": 400,
+      "image": "banner_guigo-04.png"
+    },
+    {
+      "id": 10,
+      "title": "title video",
+      "duration": 400,
+      "image": "banner_guigo-05.png"
+    },
+    {
+      "id": 11,
+      "title": "title video",
+      "duration": 400,
+      "image": "banner_guigo-06.png"
+    },
+    {
+      "id": 12,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_0420_BannerHome_1.png"
+    },
+    {
+      "id": 13,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_0420_BannerHome_2.png"
+    },
+    {
+      "id": 14,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_03_2020_1.png"
+    },
+    {
+      "id": 15,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_03_2020_3.png"
+    },
+    {
+      "id": 16,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_03_2020_4.png"
+    },
+    {
+      "id": 17,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_ESPORTES_17.png"
+    },
+    {
+      "id": 18,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_ESPORTES.png"
+    },
+    {
+      "id": 19,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_NOVELAS.png"
+    },
+    {
+      "id": 20,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_Quarentena1.png"
+    },
+    {
+      "id": 21,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_Quarentena3.png"
+    },
+    {
+      "id": 22,
+      "title": "title video",
+      "duration": 400,
+      "image": "Guigo_BannerHome_Quarentena4.png"
+    },
+    {
+      "id": 23,
+      "title": "title video",
+      "duration": 400,
+      "image": "novos_canais.png"
+    },
+    {
+      "id": 24,
+      "title": "title video",
+      "duration": 400,
+      "image": "Rev03_Guigo_BannerSite_ESPN-1.png"
+    },
+    {
+      "id": 25,
+      "title": "title video",
+      "duration": 400,
+      "image": "Rev03_Guigo_BannerSite_TLN-1.png"
+    },
+    {
+      "id": 26,
+      "title": "title video",
+      "duration": 400,
+      "image": "Rev06_Guigo_BannerSite_INFANTIL.png"
+    },
+    {
+      "id": 27,
+      "title": "title video",
+      "duration": 400,
+      "image": "Rev06_Guigo_BannerSite_NOVELAS.png"
+    },
+    {
+      "id": 28,
+      "title": "title video",
+      "duration": 400,
+      "image": "WhatsApp_Image_2020-01-07_at_12.58.33.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

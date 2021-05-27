@@ -1,0 +1,19 @@
+.allImage {
+  ul {
+    list-style: none;
+    display: grid;
+    li {
+      display: flex;
+      align-items: center;
+      position: relative;
+      img {
+        height: 600px;
+        width: 1200px;
+      }
+    }
+  }
+}
+.informacao {
+  padding: 5px;
+  flex-direction: column;
+}
