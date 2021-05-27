@@ -1,12 +1,11 @@
-// SSG
+// SSR
 import React from 'react'
-import { GetStaticProps } from 'next'
+import { GetServerSideProps } from 'next'
+import { segToTimeString } from '../../../utils/timer'
 import Image from 'next/image'
-import { api } from '../../services/api'
-import { segToTimeString } from '../../utils/timer'
-import style from '../../styles/pages/exemplePage/ssg.module.scss'
+import { api } from '../../../services/api'
 import Link from 'next/link'
-
+import style from '../../../styles/pages/exemplePage/ssg.module.scss'
 type Videos = {
   id: string
   title: string
@@ -16,6 +15,7 @@ type Videos = {
 type HomeProps = {
   videos: Array<Videos>
 }
+
 const SSR = function ({ videos }: HomeProps) {
   return (
     <section className={style.allImage}>
@@ -30,7 +30,7 @@ const SSR = function ({ videos }: HomeProps) {
                 objectFit={'contain'}
               />
               <div className={style.informacao}>
-                <Link href={`videos/${video.id}`}>Teste</Link>
+                <Link href={`ssr/${video.id}`}>Teste</Link>
                 <p>{video.title}</p>
                 <span>{video.duration}</span>
               </div>
@@ -41,7 +41,7 @@ const SSR = function ({ videos }: HomeProps) {
     </section>
   )
 }
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const { data } = await api.get('videos', {
     params: {
       _limit: 40,
@@ -62,8 +62,7 @@ export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       videos
-    },
-    revalidate: 30
+    }
   }
 }
 export default SSR

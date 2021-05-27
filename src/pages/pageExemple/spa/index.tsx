@@ -1,10 +1,9 @@
-//SPA
+// SPA
 
-//SSR
+// SSR
 
-//SSG
-import React from 'react'
-import { useEffect } from 'react'
+// SSG
+import React, { useEffect } from 'react'
 import { NextPage } from 'next'
 
 const SPA: NextPage = () => {
